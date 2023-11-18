@@ -15,7 +15,7 @@ La opción **x** lista todos los procesos que no se ejecutan desde el terminal. 
 |ps -C nombre_proceso|  filtra la lista por el nombre del proceso. Además, este comando también muestra todos los procesos hijos del proceso especificado.  |
 
 
-## **htop**
+## **top**:
 
 
 |COMANDO    | USO |
@@ -33,3 +33,10 @@ La opción **x** lista todos los procesos que no se ejecutan desde el terminal. 
 | f  | Seleccionar lo que quieres, espacio para señalar o quitar, q para salir.   |
 | top -b -n [Nº secuencias]>[archivo] |  Para enviar la secuencia o secuencias de procesos a un archivo.  |
 | R  | Para ordenarlo de menos a mas.   |
+
+
+## **htop**
+
+```
+sudo apt install htop
+```
