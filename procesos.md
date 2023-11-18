@@ -14,3 +14,22 @@ La opción **x** lista todos los procesos que no se ejecutan desde el terminal. 
 |ps -T|  imprime los procesos activos que se ejecutan desde el terminal.  |
 |ps -C nombre_proceso|  filtra la lista por el nombre del proceso. Además, este comando también muestra todos los procesos hijos del proceso especificado.  |
 
+
+## **htop**
+
+
+|COMANDO    | USO |
+|-------|----------|
+| k | Finaliza un proceso  |
+| M | Ordena la lista por uso de memoria.  |
+| N | Ordena la lista por PID.  |
+| r | Cambia la prioridad de un proceso.  |
+| h | Muestra la ventana de ayuda. |
+| z | Muestra los procesos en ejecución en colores.  |
+| d | Cambia el intervalo de tiempo de actualización.  |
+| c | Muestra la ruta absoluta de un proceso.  |
+| CTRL+C | Detiene el comando superior.  |
+| P  | Ordena la lista por CPU.   |
+| f  | Seleccionar lo que quieres, espacio para señalar o quitar, q para salir.   |
+| top -b -n [Nº secuencias]>[archivo] |  Para enviar la secuencia o secuencias de procesos a un archivo.  |
+| R  | Para ordenarlo de menos a mas.   |
