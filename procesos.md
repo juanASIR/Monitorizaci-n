@@ -1,4 +1,4 @@
-**ps -aux** :
+## **ps -aux** :
 ```
 La opción **a** muestra todos los procesos en ejecución de todos los usuarios del sistema.
 
