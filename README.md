@@ -1,4 +1,4 @@
-# Monitorizaci-n
+# Monitorización
 
 ## Índice
 1. [Introducción](introducción.md)
