@@ -16,5 +16,18 @@
 
 * **du**: Muestra el espacio ocupado por un fichero o directorio.
 
-* **iostat**: Se utiliza para rastrear los problemas de rendimiento de los dispositivos de
-almacenamiento.
+* **iostat**: Se utiliza para rastrear los problemas de rendimiento de los dispositivos de almacenamiento.
+
+## **TRÁFICO DE LA RED**
+
+* **tcpdump**: Analiza el tráfico que circula por la red.
+  
+* **tcptrack**: Nos muestra las conexiones establecidas, su origen, destino, estado, el tiempo de iddle y la velocidad de transferencia.
+  
+* **iptraf**: Intercepta paquetes en la red y muestra información sobre el tráfico.
+  
+* **bandwidthd**: una herramienta específica de monitorización del ancho de banda
+
+## **PUERTOS**
+
+* **netstat (ss)**: Muestra las conexiones activas de una computadora, tanto entrantes como salientes.
