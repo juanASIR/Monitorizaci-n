@@ -82,8 +82,6 @@ sudo apt install atop
 | atop -v | Muestra información diversa (por ejemplo, PPID, usuario u hora). |
 | atop -y | Muestra los hilos individuales. |
 
----
-
 |CLAVES    | FUNCIONES |
 |-------|----------|
 | a |  Clasifica por orden los recursos más activos. |
