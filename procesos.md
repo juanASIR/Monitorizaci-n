@@ -16,6 +16,8 @@ La opción **x** lista todos los procesos que no se ejecutan desde el terminal. 
 |ps -T|  imprime los procesos activos que se ejecutan desde el terminal.  |
 |ps -C nombre_proceso|  filtra la lista por el nombre del proceso. Además, este comando también muestra todos los procesos hijos del proceso especificado.  |
 
+---
+
 
 ## **top**:
 
@@ -36,8 +38,9 @@ La opción **x** lista todos los procesos que no se ejecutan desde el terminal. 
 | top -b -n [Nº secuencias]>[archivo] |  Para enviar la secuencia o secuencias de procesos a un archivo.  |
 | R  | Para ordenarlo de menos a mas.   |
 
+---
 
-## **htop**
+## **htop**:
 
 ```
 sudo apt install htop
@@ -54,3 +57,39 @@ sudo apt install htop
 | F3 | Busca un proceso. |
 | F2 | Abre htop setup. |
 | F1 | Muestra el menú de ayuda. |
+
+---
+
+
+## **atop**:
+
+
+```
+sudo apt install atop
+```
+
+
+|COMANDO    | USO |
+|-------|----------|
+| man atop | Muestra la página del manual del comando atop. |
+| atop -l | Muestra los valores totales medios por segundo. |
+| atop -a | Muestra los procesos activos durante los últimos intervalos. |
+| atop -c | Muestra la línea de comandos por proceso. |
+| atop -m | Muestra la información relacionada con la memoria. |
+| atop -d | Muestra la información relacionada con el disco. |
+| atop -n | Muestra la información de la red. |
+| atop -s | Muestra los detalles de la programación. |
+| atop -v | Muestra información diversa (por ejemplo, PPID, usuario u hora). |
+| atop -y | Muestra los hilos individuales. |
+
+---
+
+|CLAVES    | FUNCIONES |
+|-------|----------|
+| a |  Clasifica por orden los recursos más activos. |
+| c |  Vuelve a la ordenación por consumo de CPU (por defecto). |
+| d |  Clasifica por orden de actividad del disco. |
+| m | Clasifica por orden de uso de memoria.  |
+| n | Clasifica por orden de actividad en la red.  |
+
+
