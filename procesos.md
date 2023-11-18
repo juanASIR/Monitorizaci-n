@@ -42,3 +42,15 @@ La opción **x** lista todos los procesos que no se ejecutan desde el terminal. 
 ```
 sudo apt install htop
 ```
+
+|COMANDO    | USO |
+|-------|----------|
+| F9 | Finaliza un proceso. |
+| F8 | Aumenta la prioridad de un proceso. |
+| F7 | 	Disminuye la prioridad de un proceso. |
+| F6 | Ordena procesos por cualquier columna. |
+| F5 | Muestra los procesos en una vista de árbol. |
+| F4 | Filtra los procesos por nombre. |
+| F3 | Busca un proceso. |
+| F2 | Abre htop setup. |
+| F1 | Muestra el menú de ayuda. |
