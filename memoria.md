@@ -48,6 +48,9 @@
 . du -h /home/user/Desktop/ --exclude="*.txt"   (Excluir un formato de archivo concreto de los resultados de la búsqueda)
 ```
 
+---
+
+## **iostat**:
 
 
 
