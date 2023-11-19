@@ -27,5 +27,19 @@
 | -ht | Te permite ver información de un sistema de archivos específico en un formato legible (en este caso el sistema de archivos /home).  |
 | -help | Listará otros comandos útiles que puedes usar, con sus descripciones.  |
 
+---
+
+## **du**:
+
+|COMANDO    | USO |
+|-------|----------|
+| du /home/user/Desktop/  | Permite a los usuarios ver el uso del disco de los archivos y las carpetas que están en el directorio Desktop (los subdirectorios se incluyen también).  |
+| du -h /home/user/Desktop/ | Al igual que con df, la opción -h la opción -h muestra información en un formato legible por humanos. |
+| du -sh /home/user/Desktop/ | La opción -s nos da el tamaño total de una carpeta especifica (en este caso, el directorio Desktop). |
+| du -m /home/user/Desktop/ | La opción -m nos proporciona los tamaños de carpetas y archivos en Megabytes (podemos usar -k para ver la información en Kilobytes). |
+| du -h –time /home/user/Desktop/ | Esto informa la última fecha de modificación de los archivos y carpetas mostrados. |
+| df –help | Muestra una lista de opciones disponibles y para qué se pueden utilizar. |
+
+
 
 
