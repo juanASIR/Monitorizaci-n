@@ -18,4 +18,14 @@
 
 ## **df**:
 
+|COMANDO    | USO |
+|-------|----------|
+| -h |  Te mostrará el resultado en un formato legible por humanos |
+| -m |  Esta línea de comando se utiliza para mostrar la información del uso del sistema de archivos en MB.  |
+| -k |  Para mostrar el uso del sistema en KB. |
+| -T | Esta opción mostrará el tipo de sistema de archivos (aparecerá una nueva columna).  |
+| -ht | Te permite ver información de un sistema de archivos específico en un formato legible (en este caso el sistema de archivos /home).  |
+| -help | Listará otros comandos útiles que puedes usar, con sus descripciones.  |
+
+
 
