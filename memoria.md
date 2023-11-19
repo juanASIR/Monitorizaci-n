@@ -40,6 +40,14 @@
 | du -h –time /home/user/Desktop/ | Esto informa la última fecha de modificación de los archivos y carpetas mostrados. |
 | df –help | Muestra una lista de opciones disponibles y para qué se pueden utilizar. |
 
+```
+. du -h /home/user/Desktop/ | sort –rn   (Ordenará todos los archivos y carpetas de mayor a menor para comprobar el uso de espacio de disco en Linux)
+
+. du -h /home/user/Desktop | grep '^\s*[0-9\.]\+G'  (Quieres ver todos los archivos que superan un determinado tamaño, devolverá todos los archivos mayores a 1 GB.)
+
+. du -h /home/user/Desktop/ --exclude="*.txt"   (Excluir un formato de archivo concreto de los resultados de la búsqueda)
+```
+
 
 
 
