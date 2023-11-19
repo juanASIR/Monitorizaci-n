@@ -52,5 +52,13 @@
 
 ## **iostat**:
 
+|COMANDO    | USO |
+|-------|----------|
+| iostat | obtiene informes y estadísticas |
+| iostat -x | muestra información estadística más detallada |
+| iostat -c | muestra solo la estadística de la CPU. |
+| iostat -d | muestra solo el informe del dispositivo |
+| iostat -xd | muestra estadísticas de E/S (operaciones de inicio)ampliadas únicamente para el dispositivo. |
+
 
 
