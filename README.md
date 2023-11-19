@@ -16,3 +16,4 @@
 ## Referencias
 
 * [Hostinger](https://www.hostinger.es/tutoriales/ver-procesos-en-linux)
+* [rm-rf](https://rm-rf.es/el-comando-free/)
