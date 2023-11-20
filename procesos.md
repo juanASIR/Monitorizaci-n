@@ -89,5 +89,3 @@ sudo apt install atop
 | d |  Clasifica por orden de actividad del disco. |
 | m | Clasifica por orden de uso de memoria.  |
 | n | Clasifica por orden de actividad en la red.  |
-
-

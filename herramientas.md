@@ -6,7 +6,7 @@
 
 * **htop**: Similar a top, pero con una interfaz más visual y funciones adicionales, como la capacidad de desplazarse y filtrar procesos de manera más intuitiva.
 
-* **atop**: Registra e informa de la actividad de todos los procesos del servidor.
+* **atop**: Registra e informa de la actividad de todos los procesos del servidor. Guarda estadísticas del sistema. Empieza a tomar datos desde el momento que se instala. systemctl status atop. Fichero de configuracion /etc/default/atop. Dentro de default LOGINTERVAL=600 (cada tiempo que recoge datos en segundos). /var/log/atop (atop -r /var/log/atop/atop_[fecha]).
 
 ## **MEMORIA, ESPACIO Y RENDIMIENTO DEL DISCO**
 
