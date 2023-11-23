@@ -25,7 +25,7 @@
 | -k |  Para mostrar el uso del sistema en KB. |
 | -T | Esta opción mostrará el tipo de sistema de archivos (aparecerá una nueva columna).  |
 | -ht | Te permite ver información de un sistema de archivos específico en un formato legible (en este caso el sistema de archivos /home).  |
-| -help | Listará otros comandos útiles que puedes usar, con sus descripciones.  |
+| --help | Listará otros comandos útiles que puedes usar, con sus descripciones.  |
 
 ---
 
