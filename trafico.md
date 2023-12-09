@@ -39,6 +39,36 @@ Nos muestra las conexiones establecidas, su origen, destino, estado, el tiempo d
 ## **iptraf:** ##
 Intercepta paquetes en la red y muestra información sobre el tráfico.
 
+```
+# Iniciar iptraf en el modo de interfaz gráfica
+sudo iptraf
+
+# Iniciar iptraf en el modo de monitorización de tráfico IP
+sudo iptraf -i <interfaz>  # Reemplaza <interfaz> con el nombre de tu interfaz, por ejemplo, eth0
+
+# Mostrar información detallada sobre tráfico TCP
+sudo iptraf -i <interfaz> -t
+
+# Mostrar información detallada sobre tráfico UDP
+sudo iptraf -i <interfaz> -u
+
+# Filtrar tráfico por dirección IP
+sudo iptraf -i <interfaz> -s <ip>  # Reemplaza <interfaz> con tu interfaz y <ip> con la dirección IP deseada
+
+# Mostrar tráfico en modo promiscuo
+sudo iptraf -i any
+
+# Mostrar tráfico TCP en una interfaz de red específica
+sudo iptraf -i eth0 -t
+
+# Filtrar tráfico por dirección IP de origen específica
+sudo iptraf -i eth0 -L /tmp/iptraf-filter -B -F -s <ip>
+
+# Filtrar tráfico por puerto de destino específico
+sudo iptraf -i eth0 -L /tmp/iptraf-filter -B -F -d <puerto>
+
+```
+
 ---
 
 ## **bandwidthd:** ##
