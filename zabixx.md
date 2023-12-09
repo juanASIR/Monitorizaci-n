@@ -16,3 +16,6 @@ Proporciona monitorización avanzada con capacidades de recopilación de datos, 
 8. Personalización y Extensibilidad: Zabbix es altamente personalizable y extensible a través de plantillas, scripts y módulos.
 9. Seguridad: Proporciona funciones de seguridad como autenticación de usuarios, cifrado de datos y control de acceso basado en roles.
 10. Planificación de Mantenimiento: Permite la planificación de mantenimientos para evitar notificaciones durante períodos de mantenimiento programado.
+
+
+![zabbix](https://upload.wikimedia.org/wikipedia/commons/9/99/Zabbix.png)
