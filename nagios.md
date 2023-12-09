@@ -15,3 +15,6 @@ Nagios Core es nuestra solución de monitoreo de código abierto original, desar
 4. Planificación de Mantenimiento: Permite la planificación de mantenimientos para evitar notificaciones no deseadas durante períodos de mantenimiento programado. Ampliable y Personalizable: Nagios es altamente ampliable a través de plugins y puede personalizarse para adaptarse a las necesidades específicas de monitoreo.
 
 5. Historial y Registro de Eventos: Registra eventos y proporciona un historial de cambios y estados anteriores para facilitar la resolución de problemas.
+
+
+![NAGIOS](https://www.openitnet.com/images/2017/12/04/xi_home_dashboard.png)
