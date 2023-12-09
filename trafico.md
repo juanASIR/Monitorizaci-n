@@ -72,4 +72,9 @@ sudo iptraf -i eth0 -L /tmp/iptraf-filter -B -F -d <puerto>
 ---
 
 ## **bandwidthd:** ##
-Una herramienta específica de monitorización del ancho de banda
+Una herramienta específica de monitorización del ancho de banda, es decir utiliza la información recopilada para generar gráficos y tablas que muestran qué hosts en la red están utilizando más ancho de banda y qué servicios específicos están generando tráfico.
+
+```
+- sudo apt-get install bandwidthd       Instalamos bandwidthd
+- sudo bandwidthd
+- http://localhost/bandwidthd           Estadísticas sobre el uso del ancho de banda.
