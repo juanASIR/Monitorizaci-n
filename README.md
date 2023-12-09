@@ -9,7 +9,7 @@
    
 4. ***[Sistemas_monitorización](sistemas.md)***
     * [Nagios](nagios.md)
-    * [Zabbix](zabbix.md)
+    * [Zabbix](zabixx.md)
     * [Prometheus](prometheus.md)
     * [Grafana](grafana.md)
 
