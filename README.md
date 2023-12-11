@@ -14,6 +14,7 @@
     * [Grafana](grafana.md)
 
 5. ***[Comandos instalación prometheus grafana](Comandos_instalación_prometheus_grafana.pdf)***
+6. ***[Comandos alertas grafana]()***
 
 ## Referencias
 
