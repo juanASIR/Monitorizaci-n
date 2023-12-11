@@ -16,7 +16,7 @@
 5. ***[Comandos instalación prometheus grafana](Comandos_instalación_prometheus_grafana.pdf)***
 6. ***[Comandos alertas grafana](Comandos_alerta_grafana.pdf)***
    * [Alertas con correo](Alerta_correo.pdf)
-   * [Alertas con telegram]
+   * [Alertas con telegram](Alerta_Telegram.pdf)
 
 ## Referencias
 
